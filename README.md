@@ -25,11 +25,12 @@ This application is intended for a technical service to provide computer mainten
 * Upon successful login, the system should return a JWT token.
 * Services requiring authorization will operate with the JWT token
 
-
-    For testing purposes, the system should include the following pre-existing information:
-    (data.sql file)
-    2 roles (ADMIN and USER) to be inserted into the system via a script.
-    2 users (one with an admin role and one with a user role) to be inserted into the system via a script.
+```
+For testing purposes, the system should include the following pre-existing information:
+(data.sql file)
+2 roles (ADMIN and USER) to be inserted into the system via a script.
+2 users (one with an admin role and one with a user role) to be inserted into the system via a script.
+```
 
 #### 1. Maintenance Services
 
