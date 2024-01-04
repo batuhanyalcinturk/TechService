@@ -1,4 +1,4 @@
-## Tech Service Store App
+# Tech Service Store App
 #### Spring Boot
 This application is intended for a technical service to provide computer maintenance services by appointment and also to buy and sell second-hand computer parts. There is no requirement for features like inventory control in the project.
 
@@ -86,7 +86,7 @@ Users in the system can view second-hand products without logging in.
 * After a successful sale, the entry will be directly removed from the 'sale' table.
 * Multiple sales of the same product are possible, and for each sale, admins should create a new record.
 
-#### 6. Second-Hand Sales Offer Operations – User Functions
+#### 6. Second-Hand Sales Offer Operations – User Operations
 
 Users can submit offers to the technical service to sell their second-hand products, i.e., for the technical service to purchase second-hand parts (Proposal table).
 
@@ -96,7 +96,7 @@ Users can submit offers to the technical service to sell their second-hand produ
 * Admins can either reject or approve these offers. If approved, the customer can visit the service whenever convenient to complete the transaction.
 * Users can check the status of their approved offers using the 'list my offers' endpoint
 
-#### 7. Second-Hand Purchase Operations – Admin Functions
+#### 7. Second-Hand Purchase Operations – Admin Operations
 
 Admin users in the system will be able to view the offers submitted by customers (as described in the above process).
 
